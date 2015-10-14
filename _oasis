@@ -1,0 +1,16 @@
+OASISFormat:	                       0.4
+Name:                                 eliom_ocp-indent
+Version:                              1.0
+Synopsis:                             This plugin adds support for eliom syntax extension into ocp-indent
+Authors:                              Evgenii Lepikhin
+License:                              GPL-3
+AlphaFeatures:                        ocamlbuild_more_args, compiled_setup_ml
+Plugins:                              DevFiles (0.3), META (0.3)
+BuildTools:                           ocamlbuild
+OCamlVersion:                         >= 4.01
+
+Library "eliom_ocp-indent"
+        Path: .
+        BuildDepends: ocp-indent.lexer
+        Modules: Eliom
+

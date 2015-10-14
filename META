@@ -1,0 +1,5 @@
+version = "1.0"
+description =
+"This plugin adds support for eliom syntax extension into ocp-indent"
+archive(native, plugin) = "eliom_ocp-indent.cmxs"
+exists_if = "eliom_ocp-indent.cmxs"
